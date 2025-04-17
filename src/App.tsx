@@ -15,6 +15,7 @@ function App() {
         </div>
         <button className='cta'>
           Try GitMind AI Now
+          <img src="./src/assets/arrow.png" alt="" />
         </button>
       </div>
     </div>

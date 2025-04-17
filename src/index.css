@@ -13,8 +13,15 @@
 
 @font-face {
   font-family: 'modernist';
-  src: url('./src/assets/fonts/ElzaTextTrial-Regular.otf') format('opentype');   /* Fallback support */
+  src: url('./src/assets/fonts/Sk-Modernist-Regular.otf') format('opentype');   /* Fallback support */
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'elza';
+  src: url('./src/assets/fonts/ElzaTextTrial-Light.otf') format('opentype');   /* Fallback support */
+  font-weight: 100;
   font-style: normal;
 }
 
