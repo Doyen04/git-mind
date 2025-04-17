@@ -3,7 +3,7 @@ import React from "react";
 const Header: React.FC = () => {
     return (
         <div className="header">
-            <img src="./src/assets/logo.png" alt="" />
+            <img className="logo" src="./src/assets/logo.png" alt="" />
             <nav className="nav-links">
                 <p>Features <img src="./src/assets/caret.png" alt="" /></p>
                 <p>Resources<img src="./src/assets/caret.png" alt="" /></p>
@@ -14,6 +14,7 @@ const Header: React.FC = () => {
             <button className="login">
                 Login
             </button>
+            <img className='mobile-menu' src="./src/assets/menu.png" alt="" />
         </div>
     )
 }

@@ -25,7 +25,9 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
-
+.logo{
+  width: 80px;
+}
 .nav-links {
   display: none;
   font-family: 'elza';
@@ -50,6 +52,10 @@
   font-family: 'elza';
   font-weight: 500;
   font-size: 16px;
+}
+.mobile-menu{
+  width: 30px;
+  height: 30px;
 }
 
 .hero-section {
@@ -96,6 +102,7 @@
 }
 
 @media (min-width: 768px) {
+
   .hero-page {
     background-size: 100%;
     background-position: 0 0;
@@ -104,7 +111,9 @@
   .header {
     margin-top: 25px;
   }
-
+  .logo{
+    width: 100px;
+  }
   .nav-links {
     display: flex;
     width: 50%;
@@ -118,6 +127,9 @@
     justify-content: center;
 
     /* background: radial-gradient(circle,#ff8025b0 100%, #ff6900 0%); */
+  }
+  .mobile-menu{
+    display: none;
   }
 
   .hero-section {
