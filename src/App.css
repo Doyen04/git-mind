@@ -2,7 +2,7 @@
   max-width: 100vw;
   min-height: 100vh;
   background: url('./src/assets/background.png');
-  background-size: 100% 50%;
+  background-size: 100% 40%;
 
   background-repeat: no-repeat;
   display: flex;
@@ -29,7 +29,7 @@
 .nav-links {
   display: none;
   font-family: 'elza';
-  font-weight: normal;
+  font-weight: 100;
   font-size: 16px;
 }
 
@@ -45,10 +45,8 @@
   height: 35px;
   padding: 8px;
   border-radius: 50px;
-  border: 2px solid #ff6900;
-  background: radial-gradient(circle,
-      #ff7f25b0 100%,
-      #ff6900 0%);
+  border: 2px solid rgba(255,127,37,0.68);
+  background-color: rgba(255,127,37,0.68);
   font-family: 'elza';
   font-weight: 500;
   font-size: 16px;
@@ -79,7 +77,6 @@
   font-weight: 100;
   line-height: 1.6;
   font-size: 16px;
-  letter-spacing: 0;
 }
 
 .cta {
@@ -100,7 +97,7 @@
 
 @media (min-width: 768px) {
   .hero-page {
-    background-size: cover;
+    background-size: 100%;
     background-position: 0 0;
   }
 
@@ -130,5 +127,8 @@
   }
   .headline{
     font-size: 66px;
+  }
+  .sub-headline{
+    width: 525px;
   }
 }
